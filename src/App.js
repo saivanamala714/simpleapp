@@ -19,7 +19,7 @@ const store = createStore((state={}, action)=>{
 function App() {
   return (
     <div className="App">
-      <h1>{JSON.stringify(store.getState())} Hello</h1>
+      <h1>{JSON.stringify(store.getState())}</h1>
     </div>
   );
 }
